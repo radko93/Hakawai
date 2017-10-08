@@ -7,6 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83DFE1541F8AC5BF007B1388 /* HakawaiFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 83DFE1521F8AC5BF007B1388 /* HakawaiFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DFE15A1F8AC67C007B1388 /* HKWSimplePluginProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3087219A2C0D60096DE0E /* HKWSimplePluginProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DFE15B1F8AC683007B1388 /* HKWControlFlowPluginProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3087119A2C0D60096DE0E /* HKWControlFlowPluginProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DFE15C1F8AC688007B1388 /* HKWTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3087919A2C0D60096DE0E /* HKWTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DFE15D1F8AC697007B1388 /* HKWTextView+TextTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = E11DF8CF19EC8DA30072F4AD /* HKWTextView+TextTransformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DFE15E1F8AC69D007B1388 /* HKWTextView+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3087319A2C0D60096DE0E /* HKWTextView+Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DFE15F1F8AC6A3007B1388 /* HKWTextView+Plugins.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3087519A2C0D60096DE0E /* HKWTextView+Plugins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DFE1601F8AC6AA007B1388 /* HKWAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3086F19A2C0D60096DE0E /* HKWAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DFE1611F8AC6B6007B1388 /* HKWAbstractionLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = E187EE5C19E62F9100AF163A /* HKWAbstractionLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DFE1621F8AC6BF007B1388 /* HKWCustomAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3087C19A2C0D60096DE0E /* HKWCustomAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DFE1631F8AC739007B1388 /* HKWMentionsEntityProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3088E19A2C1890096DE0E /* HKWMentionsEntityProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DFE1641F8AC73F007B1388 /* HKWMentionsPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3088F19A2C1890096DE0E /* HKWMentionsPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DFE1651F8AC888007B1388 /* HKWMentionsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B3089019A2C1890096DE0E /* HKWMentionsPlugin.m */; };
+		83DFE1661F8AC88D007B1388 /* HKWMentionsAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3088A19A2C1890096DE0E /* HKWMentionsAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DFE1671F8AC891007B1388 /* HKWMentionsAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B3088B19A2C1890096DE0E /* HKWMentionsAttribute.m */; };
+		83DFE1681F8AC898007B1388 /* HKWMentionsStartDetectionStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B3089219A2C1890096DE0E /* HKWMentionsStartDetectionStateMachine.m */; };
+		83DFE1691F8AC8A1007B1388 /* HKWMentionsCreationStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B3088D19A2C1890096DE0E /* HKWMentionsCreationStateMachine.m */; };
+		83DFE16B1F8AC8B4007B1388 /* HKWTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B3087A19A2C0D60096DE0E /* HKWTextView.m */; };
+		83DFE16C1F8AC8C2007B1388 /* HKWTextView+TextTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = E11DF8D019EC8DA30072F4AD /* HKWTextView+TextTransformation.m */; };
+		83DFE16D1F8AC8C7007B1388 /* HKWTextView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B3087419A2C0D60096DE0E /* HKWTextView+Extras.m */; };
+		83DFE16E1F8AC8CC007B1388 /* HKWTextView+Plugins.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B3087619A2C0D60096DE0E /* HKWTextView+Plugins.m */; };
+		83DFE16F1F8AC8D0007B1388 /* HKWAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B3087019A2C0D60096DE0E /* HKWAttribute.m */; };
+		83DFE1701F8AC8D6007B1388 /* HKWAbstractionLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E187EE5D19E62F9100AF163A /* HKWAbstractionLayer.m */; };
+		83DFE1711F8AC8DC007B1388 /* HKWLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B3087E19A2C0D60096DE0E /* HKWLayoutManager.m */; };
+		83DFE1721F8AC8DF007B1388 /* HKWRoundedRectBackgroundAttributeValue.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3087F19A2C0D60096DE0E /* HKWRoundedRectBackgroundAttributeValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DFE1731F8AC8E3007B1388 /* HKWRoundedRectBackgroundAttributeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B3088019A2C0D60096DE0E /* HKWRoundedRectBackgroundAttributeValue.m */; };
+		83DFE1741F8AC8EC007B1388 /* HKWDefaultChooserView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B308A019A2C21A0096DE0E /* HKWDefaultChooserView.m */; };
+		83DFE1751F8AC8FC007B1388 /* HKWDefaultChooserArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B3089A19A2C21A0096DE0E /* HKWDefaultChooserArrowView.m */; };
+		83DFE1761F8AC912007B1388 /* HKWDefaultChooserBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B3089C19A2C21A0096DE0E /* HKWDefaultChooserBorderView.m */; };
+		83DFE1771F8AC918007B1388 /* _HKWDefaultChooserBorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3089B19A2C21A0096DE0E /* _HKWDefaultChooserBorderView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		83DFE1781F8AC922007B1388 /* _HKWDefaultChooserArrowView.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3089919A2C21A0096DE0E /* _HKWDefaultChooserArrowView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		83DFE1791F8AC937007B1388 /* _HKWLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3087D19A2C0D60096DE0E /* _HKWLayoutManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		83DFE17A1F8AC950007B1388 /* _HKWTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3086D19A2C0D60096DE0E /* _HKWTextView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		83DFE17B1F8AC958007B1388 /* _HKWPrivateConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3086C19A2C0D60096DE0E /* _HKWPrivateConstants.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		83DFE17C1F8AC95F007B1388 /* _HKWMentionsCreationStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3088C19A2C1890096DE0E /* _HKWMentionsCreationStateMachine.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		83DFE17D1F8AC965007B1388 /* _HKWMentionsStartDetectionStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3089119A2C1890096DE0E /* _HKWMentionsStartDetectionStateMachine.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		83DFE17E1F8AC970007B1388 /* _HKWMentionsPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3088919A2C1890096DE0E /* _HKWMentionsPlugin.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		83DFE17F1F8AC979007B1388 /* _HKWMentionsPrivateConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B308A919A2CC0F0096DE0E /* _HKWMentionsPrivateConstants.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9C65FBC81F607DEB004A9CB4 /* HKWLayoutManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C65FBC61F607DEB004A9CB4 /* HKWLayoutManagerTests.m */; };
 		9C65FBC91F607DEB004A9CB4 /* HKWMentionsPluginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C65FBC71F607DEB004A9CB4 /* HKWMentionsPluginTests.m */; };
 		D923C7A86BAE4140B98CE674 /* libPods-HakawaiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA135592875A450893230734 /* libPods-HakawaiTests.a */; };
@@ -65,6 +103,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		83DFE1501F8AC5BF007B1388 /* HakawaiFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HakawaiFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83DFE1521F8AC5BF007B1388 /* HakawaiFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HakawaiFramework.h; sourceTree = "<group>"; };
+		83DFE1531F8AC5BF007B1388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C65FBC61F607DEB004A9CB4 /* HKWLayoutManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKWLayoutManagerTests.m; sourceTree = "<group>"; };
 		9C65FBC71F607DEB004A9CB4 /* HKWMentionsPluginTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKWMentionsPluginTests.m; sourceTree = "<group>"; };
 		ADAD3A835F36586553D39C04 /* Pods-HakawaiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HakawaiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HakawaiTests/Pods-HakawaiTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +172,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		83DFE14C1F8AC5BF007B1388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E1C9675919A2A66000A4AA93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -154,6 +202,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83DFE1511F8AC5BF007B1388 /* HakawaiFramework */ = {
+			isa = PBXGroup;
+			children = (
+				83DFE1521F8AC5BF007B1388 /* HakawaiFramework.h */,
+				83DFE1531F8AC5BF007B1388 /* Info.plist */,
+			);
+			path = HakawaiFramework;
+			sourceTree = "<group>";
+		};
 		E1233BFD19A308790052217A /* Supporting Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,6 +312,7 @@
 			children = (
 				E1C9676119A2A66000A4AA93 /* Hakawai */,
 				E1C9677519A2A66000A4AA93 /* HakawaiTests */,
+				83DFE1511F8AC5BF007B1388 /* HakawaiFramework */,
 				E1C9675E19A2A66000A4AA93 /* Frameworks */,
 				E1C9675D19A2A66000A4AA93 /* Products */,
 				F7DB70E8EF6448CBE34D48FE /* Pods */,
@@ -266,6 +324,7 @@
 			children = (
 				E1C9675C19A2A66000A4AA93 /* libHakawai.a */,
 				E1C9676C19A2A66000A4AA93 /* HakawaiTests.xctest */,
+				83DFE1501F8AC5BF007B1388 /* HakawaiFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -338,7 +397,58 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		83DFE14D1F8AC5BF007B1388 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DFE15A1F8AC67C007B1388 /* HKWSimplePluginProtocol.h in Headers */,
+				83DFE15F1F8AC6A3007B1388 /* HKWTextView+Plugins.h in Headers */,
+				83DFE1601F8AC6AA007B1388 /* HKWAttribute.h in Headers */,
+				83DFE1661F8AC88D007B1388 /* HKWMentionsAttribute.h in Headers */,
+				83DFE1771F8AC918007B1388 /* _HKWDefaultChooserBorderView.h in Headers */,
+				83DFE17B1F8AC958007B1388 /* _HKWPrivateConstants.h in Headers */,
+				83DFE17D1F8AC965007B1388 /* _HKWMentionsStartDetectionStateMachine.h in Headers */,
+				83DFE1721F8AC8DF007B1388 /* HKWRoundedRectBackgroundAttributeValue.h in Headers */,
+				83DFE1641F8AC73F007B1388 /* HKWMentionsPlugin.h in Headers */,
+				83DFE1621F8AC6BF007B1388 /* HKWCustomAttributes.h in Headers */,
+				83DFE17C1F8AC95F007B1388 /* _HKWMentionsCreationStateMachine.h in Headers */,
+				83DFE1791F8AC937007B1388 /* _HKWLayoutManager.h in Headers */,
+				83DFE17A1F8AC950007B1388 /* _HKWTextView.h in Headers */,
+				83DFE15D1F8AC697007B1388 /* HKWTextView+TextTransformation.h in Headers */,
+				83DFE15C1F8AC688007B1388 /* HKWTextView.h in Headers */,
+				83DFE17E1F8AC970007B1388 /* _HKWMentionsPlugin.h in Headers */,
+				83DFE1781F8AC922007B1388 /* _HKWDefaultChooserArrowView.h in Headers */,
+				83DFE1611F8AC6B6007B1388 /* HKWAbstractionLayer.h in Headers */,
+				83DFE1631F8AC739007B1388 /* HKWMentionsEntityProtocol.h in Headers */,
+				83DFE1541F8AC5BF007B1388 /* HakawaiFramework.h in Headers */,
+				83DFE15E1F8AC69D007B1388 /* HKWTextView+Extras.h in Headers */,
+				83DFE15B1F8AC683007B1388 /* HKWControlFlowPluginProtocols.h in Headers */,
+				83DFE17F1F8AC979007B1388 /* _HKWMentionsPrivateConstants.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		83DFE14F1F8AC5BF007B1388 /* HakawaiFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83DFE1571F8AC5BF007B1388 /* Build configuration list for PBXNativeTarget "HakawaiFramework" */;
+			buildPhases = (
+				83DFE14B1F8AC5BF007B1388 /* Sources */,
+				83DFE14C1F8AC5BF007B1388 /* Frameworks */,
+				83DFE14D1F8AC5BF007B1388 /* Headers */,
+				83DFE14E1F8AC5BF007B1388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HakawaiFramework;
+			productName = HakawaiFramework;
+			productReference = 83DFE1501F8AC5BF007B1388 /* HakawaiFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		E1C9675B19A2A66000A4AA93 /* Hakawai */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1C9677F19A2A66000A4AA93 /* Build configuration list for PBXNativeTarget "Hakawai" */;
@@ -386,6 +496,10 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = LinkedIn;
 				TargetAttributes = {
+					83DFE14F1F8AC5BF007B1388 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
 					E1C9676B19A2A66000A4AA93 = {
 						TestTargetID = E1C9675B19A2A66000A4AA93;
 					};
@@ -405,11 +519,19 @@
 			targets = (
 				E1C9675B19A2A66000A4AA93 /* Hakawai */,
 				E1C9676B19A2A66000A4AA93 /* HakawaiTests */,
+				83DFE14F1F8AC5BF007B1388 /* HakawaiFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		83DFE14E1F8AC5BF007B1388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E1C9676A19A2A66000A4AA93 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -469,6 +591,28 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		83DFE14B1F8AC5BF007B1388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DFE16C1F8AC8C2007B1388 /* HKWTextView+TextTransformation.m in Sources */,
+				83DFE1711F8AC8DC007B1388 /* HKWLayoutManager.m in Sources */,
+				83DFE16B1F8AC8B4007B1388 /* HKWTextView.m in Sources */,
+				83DFE16F1F8AC8D0007B1388 /* HKWAttribute.m in Sources */,
+				83DFE1701F8AC8D6007B1388 /* HKWAbstractionLayer.m in Sources */,
+				83DFE1671F8AC891007B1388 /* HKWMentionsAttribute.m in Sources */,
+				83DFE1651F8AC888007B1388 /* HKWMentionsPlugin.m in Sources */,
+				83DFE1751F8AC8FC007B1388 /* HKWDefaultChooserArrowView.m in Sources */,
+				83DFE1761F8AC912007B1388 /* HKWDefaultChooserBorderView.m in Sources */,
+				83DFE16D1F8AC8C7007B1388 /* HKWTextView+Extras.m in Sources */,
+				83DFE1741F8AC8EC007B1388 /* HKWDefaultChooserView.m in Sources */,
+				83DFE1691F8AC8A1007B1388 /* HKWMentionsCreationStateMachine.m in Sources */,
+				83DFE1731F8AC8E3007B1388 /* HKWRoundedRectBackgroundAttributeValue.m in Sources */,
+				83DFE1681F8AC898007B1388 /* HKWMentionsStartDetectionStateMachine.m in Sources */,
+				83DFE16E1F8AC8CC007B1388 /* HKWTextView+Plugins.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E1C9675819A2A66000A4AA93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -531,6 +675,74 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		83DFE1551F8AC5BF007B1388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = HakawaiFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linkedin.HakawaiFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83DFE1561F8AC5BF007B1388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = HakawaiFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linkedin.HakawaiFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E1C9677D19A2A66000A4AA93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -664,6 +876,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		83DFE1571F8AC5BF007B1388 /* Build configuration list for PBXNativeTarget "HakawaiFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DFE1551F8AC5BF007B1388 /* Debug */,
+				83DFE1561F8AC5BF007B1388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E1C9675719A2A66000A4AA93 /* Build configuration list for PBXProject "Hakawai" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
