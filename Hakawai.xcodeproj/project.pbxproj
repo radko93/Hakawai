@@ -47,6 +47,8 @@
 		83DFE17D1F8AC965007B1388 /* _HKWMentionsStartDetectionStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3089119A2C1890096DE0E /* _HKWMentionsStartDetectionStateMachine.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		83DFE17E1F8AC970007B1388 /* _HKWMentionsPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3088919A2C1890096DE0E /* _HKWMentionsPlugin.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		83DFE17F1F8AC979007B1388 /* _HKWMentionsPrivateConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B308A919A2CC0F0096DE0E /* _HKWMentionsPrivateConstants.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		83DFE1C21F8AE9C6007B1388 /* _HKWDefaultChooserView.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3089F19A2C21A0096DE0E /* _HKWDefaultChooserView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		83DFE1C31F8AE9D3007B1388 /* HKWChooserViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B308A319A2C21A0096DE0E /* HKWChooserViewProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C65FBC81F607DEB004A9CB4 /* HKWLayoutManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C65FBC61F607DEB004A9CB4 /* HKWLayoutManagerTests.m */; };
 		9C65FBC91F607DEB004A9CB4 /* HKWMentionsPluginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C65FBC71F607DEB004A9CB4 /* HKWMentionsPluginTests.m */; };
 		E11DF8D119EC8DA30072F4AD /* HKWTextView+TextTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = E11DF8D019EC8DA30072F4AD /* HKWTextView+TextTransformation.m */; };
@@ -432,6 +434,8 @@
 				83DFE1721F8AC8DF007B1388 /* HKWRoundedRectBackgroundAttributeValue.h in Headers */,
 				83DFE1641F8AC73F007B1388 /* HKWMentionsPlugin.h in Headers */,
 				83DFE1621F8AC6BF007B1388 /* HKWCustomAttributes.h in Headers */,
+				83DFE1C31F8AE9D3007B1388 /* HKWChooserViewProtocol.h in Headers */,
+				83DFE1C21F8AE9C6007B1388 /* _HKWDefaultChooserView.h in Headers */,
 				83DFE17C1F8AC95F007B1388 /* _HKWMentionsCreationStateMachine.h in Headers */,
 				83DFE1791F8AC937007B1388 /* _HKWLayoutManager.h in Headers */,
 				83DFE17A1F8AC950007B1388 /* _HKWTextView.h in Headers */,
