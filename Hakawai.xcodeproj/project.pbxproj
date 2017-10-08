@@ -45,6 +45,9 @@
 		83DFE17D1F8AC965007B1388 /* _HKWMentionsStartDetectionStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3089119A2C1890096DE0E /* _HKWMentionsStartDetectionStateMachine.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		83DFE17E1F8AC970007B1388 /* _HKWMentionsPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B3088919A2C1890096DE0E /* _HKWMentionsPlugin.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		83DFE17F1F8AC979007B1388 /* _HKWMentionsPrivateConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B308A919A2CC0F0096DE0E /* _HKWMentionsPrivateConstants.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		83DFE1811F8ACFB5007B1388 /* libExpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DFE1801F8ACFB5007B1388 /* libExpecta.a */; };
+		83DFE1831F8ACFB8007B1388 /* libPods-HakawaiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DFE1821F8ACFB8007B1388 /* libPods-HakawaiTests.a */; };
+		83DFE1851F8ACFBC007B1388 /* libSpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DFE1841F8ACFBC007B1388 /* libSpecta.a */; };
 		9C65FBC81F607DEB004A9CB4 /* HKWLayoutManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C65FBC61F607DEB004A9CB4 /* HKWLayoutManagerTests.m */; };
 		9C65FBC91F607DEB004A9CB4 /* HKWMentionsPluginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C65FBC71F607DEB004A9CB4 /* HKWMentionsPluginTests.m */; };
 		D923C7A86BAE4140B98CE674 /* libPods-HakawaiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA135592875A450893230734 /* libPods-HakawaiTests.a */; };
@@ -106,6 +109,9 @@
 		83DFE1501F8AC5BF007B1388 /* HakawaiFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HakawaiFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83DFE1521F8AC5BF007B1388 /* HakawaiFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HakawaiFramework.h; sourceTree = "<group>"; };
 		83DFE1531F8AC5BF007B1388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83DFE1801F8ACFB5007B1388 /* libExpecta.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libExpecta.a; path = "Pods/../build/Debug-iphoneos/libExpecta.a"; sourceTree = "<group>"; };
+		83DFE1821F8ACFB8007B1388 /* libPods-HakawaiTests.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-HakawaiTests.a"; path = "Pods/../build/Debug-iphoneos/libPods-HakawaiTests.a"; sourceTree = "<group>"; };
+		83DFE1841F8ACFBC007B1388 /* libSpecta.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSpecta.a; path = "Pods/../build/Debug-iphoneos/libSpecta.a"; sourceTree = "<group>"; };
 		9C65FBC61F607DEB004A9CB4 /* HKWLayoutManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKWLayoutManagerTests.m; sourceTree = "<group>"; };
 		9C65FBC71F607DEB004A9CB4 /* HKWMentionsPluginTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKWMentionsPluginTests.m; sourceTree = "<group>"; };
 		ADAD3A835F36586553D39C04 /* Pods-HakawaiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HakawaiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HakawaiTests/Pods-HakawaiTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -176,6 +182,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83DFE1851F8ACFBC007B1388 /* libSpecta.a in Frameworks */,
+				83DFE1831F8ACFB8007B1388 /* libPods-HakawaiTests.a in Frameworks */,
+				83DFE1811F8ACFB5007B1388 /* libExpecta.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +341,9 @@
 		E1C9675E19A2A66000A4AA93 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				83DFE1841F8ACFBC007B1388 /* libSpecta.a */,
+				83DFE1821F8ACFB8007B1388 /* libPods-HakawaiTests.a */,
+				83DFE1801F8ACFB5007B1388 /* libExpecta.a */,
 				E1C9675F19A2A66000A4AA93 /* Foundation.framework */,
 				E1C9676D19A2A66000A4AA93 /* XCTest.framework */,
 				E1C9677019A2A66000A4AA93 /* UIKit.framework */,
@@ -699,6 +711,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.linkedin.HakawaiFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -733,6 +749,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.linkedin.HakawaiFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
