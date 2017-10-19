@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+#import <HakawaiFramework/HKWMentionsAttribute.h>
+#import <HakawaiFramework/HKWMentionsPlugin.h>
+#import <HakawaiFramework/HKWControlFlowPluginProtocols.h>
+#import <HakawaiFramework/HKWMentionsEntityProtocol.h>
+#import <HakawaiFramework/HKWChooserViewProtocol.h>
+#import <HakawaiFramework/HKWTextView.h>
+
 //! Project version number for HakawaiFramework.
 FOUNDATION_EXPORT double HakawaiFrameworkVersionNumber;
 
